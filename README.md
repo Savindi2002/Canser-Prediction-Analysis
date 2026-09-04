@@ -19,16 +19,6 @@ The main goal is to understand the dataset and build a predictive model that can
 * Evaluate the model's predictive performance
 * Visualize important findings
 
-## 📊 Dataset
-
-The project uses the **Cancer Dataset**, containing 1,500 patient records.
-
-Dataset file:
-
-`data/The_Cancer_data_1500_V2.csv`
-
-The dataset contains patient-related features that can be used to analyze factors associated with cancer diagnosis.
-
 ## 🔍 Analysis Workflow
 
 The project follows these main steps:
@@ -52,20 +42,6 @@ The project follows these main steps:
 * **Scikit-learn**
 * **Jupyter Notebook**
 
-## 📁 Project Structure
-
-```text
-Canser-Prediction-Analysis/
-│
-├── data/
-│   └── The_Cancer_data_1500_V2.csv
-│
-├── notebooks/
-│   ├── cancer_prediction.ipynb
-│   └── numerical_features_distribution.png
-│
-└── README.md
-```
 
 ## 📈 Visualizations
 
