@@ -1,4 +1,5 @@
 import './App.css'
+
 import { useEffect, useMemo, useState } from 'react'
 
 
@@ -469,7 +470,7 @@ function App() {
                 </p>
               </div>
 
-              <span className="live-badge">
+              <span className={`live-badge ${isConnected ? '' : 'offline'}`}>
                 <span />
                 {isConnected ? 'API Online' : 'API Offline'}
               </span>
